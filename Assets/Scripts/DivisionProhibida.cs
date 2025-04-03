@@ -16,7 +16,7 @@ public class DivisionProhibida : MonoBehaviour
             Debug.Log("No se puede dividir por 0, ingrese otro número");
         } else
         {
-            resultado = num1 / num2;
+            resultado = num1 / (num2 *1.0f);
             Debug.Log(num1 + " / " + num2 + " = " + resultado);
         }
         
